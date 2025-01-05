@@ -1,0 +1,5 @@
+# This file is used to ignore files and directories in the repository
+*.png
+/images.*
+# Ignore the file containing the API key for security reasons
+config.py
