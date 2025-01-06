@@ -1,5 +1,15 @@
 # This file is used to ignore files and directories in the repository
+# ignore image files
 *.png
+
+# ignore the images directory
 /images.*
+
 # Ignore the file containing the API key for security reasons
 config.py
+
+# Ignore the virtual environment directory
+.venv/
+
+# ignore python cache files
+__pycache__/
