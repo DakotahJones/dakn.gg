@@ -1,2 +1,2 @@
-# dj_op.gg
+# dakn.gg
 Creating my own spin on op.gg

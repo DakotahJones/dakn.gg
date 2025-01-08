@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Dakotah Jones">
-    <title>dj_op.gg</title>
+    <title>dakn.gg</title>
     <link rel="stylesheet" href="style1.css">
+    <!-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> -->
+    <!-- <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script> -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
 </head>
 <body>
     <center>
     <h1>
-        <img src="/images/op.gg.png" alt="op.gg" width="250" height="200">
+
+        <img src="/images/op.gg.png" alt="dakn.gg" width="250" height="200">
     </h1>
     <h2>
         <div class="search"> <!-- search bar and search button -->
@@ -21,22 +28,20 @@
         </div>
     </h2>
     <h3>
-        
     <div class="user-data">
-        <p>User Data<span id="Username"></span></p>
-        <p>Name: <span id="summoner-name">N/A</span></p>
+        <p>User Data<span id="Username"><py-script src="callRiotAPI.py"></py-script></span></p>
+        <p>Username: <span id="summoner-name"></span></p>
         <p>Level: <span id="summoner-level">N/A</span></p>
         <p>Rank: <span id="summoner-rank">N/A</span></p>
         <p>Wins: <span id="summoner-wins">N/A</span></p>
         <p>Losses: <span id="summoner-losses">N/A</span></p>
         <p> Placeholder for graph of user data. <img src="" alt="userdatagraph"> <span id></span></p>
     </div>
-
     </h3>
     <footer>
         <!-- Legal boilerplate -->
         <p>
-        dj_op.gg isn't endorsed by Riot Games and doesn't
+        dakn.gg isn't endorsed by Riot Games and doesn't
          reflect the views or opinions of Riot Games or anyone
           officially involved in producing or managing Riot Games
            properties. Riot Games, and all associated properties
@@ -46,5 +51,6 @@
 </center>
 </body>
 </html>
+
 
 <!-- stick to just na for search bar (or default the search to na) -->
